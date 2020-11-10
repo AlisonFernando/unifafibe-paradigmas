@@ -11,6 +11,9 @@ namespace Paradigmas_AP1
 
         public void setClientName(string name) { this.name = name; }
         public string getClientName() { return this.name; }
+        
+        public void setClientCpf(string cpf) { this.cpf = cpf; }
+        public string getClientCpf() { return this.cpf; }      
 
         public void printOutDetails()
         {
